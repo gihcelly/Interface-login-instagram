@@ -209,3 +209,24 @@ footer {
     }
 }
 
+@media (max-height: 768px){
+    .instagram-wrapper{
+        padding-bottom: 0;
+        margin-bottom: 50px;
+    }
+
+    .instagram-continue {
+        height: 65vh;
+        padding-top: 0;
+        padding-bottom: 30px;
+    }
+
+    .instagram-phone img {
+        height: 40rem;  
+    }
+
+    footer {
+        margin-bottom: 0px;
+    }
+}
+
