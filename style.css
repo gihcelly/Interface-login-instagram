@@ -151,7 +151,7 @@ footer {
     align-items: center;
     justify-content: space-between;
     flex-direction: column;
-    margin-bottom: 52px;
+    margin-bottom: 8px;
 }
 
 .item-footer {
@@ -179,6 +179,16 @@ footer {
     margin: 0.6em;
 }
 
+.aviso {
+    width: 100vw;
+    height: 2vh;
+    color: red;
+    background-color: black;
+    font-weight: 400;
+    text-align: center;
+
+}
+
 /* media queries */
 
 @media (max-width: 1024px) {
@@ -187,7 +197,7 @@ footer {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 820px) {
     body {
         background-color: #ffffff;
     }
